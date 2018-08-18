@@ -20,7 +20,7 @@
       <file leaf-file-name="counting_bits.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/medium/counting_bits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="361">
               <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
             </state>
           </provider>
@@ -58,7 +58,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="45" />
     <option name="y" value="34" />
     <option name="width" value="1395" />
@@ -229,13 +229,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="34" width="1395" height="724" extended-state="1" />
+    <frame x="45" y="34" width="1395" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42244226" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42244226" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -353,7 +353,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/medium/counting_bits.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
+        <state relative-caret-position="361">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
         </state>
       </provider>
