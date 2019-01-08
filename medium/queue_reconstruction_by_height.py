@@ -1,5 +1,6 @@
 def reconstructQueue(people):
     """
+    思想是，现将高者排队好，在将矮者插入
     :type people: List[List[int]]
     :rtype: List[List[int]]
     """
