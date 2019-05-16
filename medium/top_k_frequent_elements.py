@@ -60,7 +60,8 @@ class Solution:
         freq = {}
         for num in nums:
             freq[num] = freq.get(num, 0) + 1
-        ans = sorted(freq.keys(), key=lambda x: freq[x], reverse=True)
+        # ans = sorted(freq.keys(), key=lambda x: freq[x], reverse=True)
+        ans = sorted(freq, key=(lambda key: freq[key]), reverse=True)
         return ans[:k]
 
 
