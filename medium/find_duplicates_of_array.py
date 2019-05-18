@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # coding=utf-8
+
+
 class Solution:
     def findDuplicates(self, nums):
         """
@@ -24,3 +26,27 @@ class Solution:
             else:
                 once_dict[item] = 1
         return result
+
+
+class Solution_(object):
+    def findDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        slow = nums[0]
+        fast = nums[nums[0]]
+        while(slow != fast):
+            slow = nums[slow]
+            fast = nums[nums[fast]]
+        fast = 0
+        while(fast != slow):
+            slow = nums[slow]
+            fast = nums[fast]
+        return slow
+
+
+if __name__ == '__main__':
+    a = Solution_()
+    b = a.findDuplicates([1, 2, 3, 4, 5, 6, 7, 4])
+    print(b)

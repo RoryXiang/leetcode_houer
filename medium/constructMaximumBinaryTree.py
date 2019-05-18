@@ -14,7 +14,7 @@ def constructMaximumBinaryTree(arry):
     node.value = max_
     left_list = arry[:arry.index(max_)]
     left(left_list, node)
-    right_list = arry[arry.index(max_)+1:]
+    right_list = arry[arry.index(max_) + 1:]
     right(right_list, node)
     return node
 
@@ -64,61 +64,42 @@ class Node(object):
 
 
 if __name__ == '__main__':
-    a = constructMaximumBinaryTree([3,2,1,6,0,5])
+    a = constructMaximumBinaryTree([3, 2, 1, 6, 0, 5])
 
     print(a.right.value)
 
-"""
-class Solution:
+
+class TreeNode(object):
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
+
+
+class Solution(object):
     def constructMaximumBinaryTree(self, nums):
-        max_ = max(nums)
-        node = TreeNode(max_)
-        # node.value = max_
-        left_list = nums[:nums.index(max_)]
-        self.left(left_list, node)
-        right_list = nums[nums.index(max_)+1:]
-        self.right(right_list, node)
-        return node
-        
-    def left(self, arry, node_):
-        if len(arry) == 0:
-            return
-        if len(arry) == 1:
-            node = TreeNode(arry[0])
-            # node.value = arry[0]
-            node_.left = node
-            return 
-        node = TreeNode(max(arry))
-        max_ = max(arry)
-        # node.value = max_
-        node_.left = node
-        left_list = arry[:arry.index(max_)]
-        self.left(left_list, node)
-        right_list = arry[arry.index(max_) + 1:]
-        self.right(right_list, node)
+        """
+        :type nums: List[int]
+        :rtype: TreeNode
+        """
+        def construct(root, low, high):
+            max = -1000
+            j = 0
+            for i in range(low, high):
+                if max < nums[i]:
+                    max = nums[i]
+                    j = i
+            root.val = max
+            if low < j:
+                root.left = TreeNode(None)
+                construct(root.left, low, j)
+            if j + 1 < high:
+                root.right = TreeNode(None)
+                construct(root.right, j + 1, high)
+        root = TreeNode(None)
+        construct(root, 0, len(nums))
+        return root
 
 
-    def right(self, arry, node_):
-        if len(arry) == 0:
-            return
-        if len(arry) == 1:
-            node = TreeNode(arry[0])
-            # node.value = arry[0]
-            node_.right = node
-            return 
-        node = TreeNode(max(arry))
-        max_ = max(arry)
-        # node.value = max_
-        node_.right = node
-        left_list = arry[:arry.index(max_)]
-        self.left(left_list, node)
-        right_list = arry[arry.index(max_) + 1:]
-        self.right(right_list, node)
-
-        
-# class Node:
-#     def __init__(self):
-#         self.value = None
-#         self.left = None
-#         self.right = None
-"""
+s = Solution()
+print(s.constructMaximumBinaryTree([1, 2, 3]))
