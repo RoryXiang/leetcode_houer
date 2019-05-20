@@ -1,57 +1,6 @@
 class Solution:
+    
     def topKFrequent(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: List[int]
-        """
-        num_time = {}  # 出现几次
-        num_rank = {}  # 排名
-        rank_num = {}
-        rank_time = {}
-        end_rank = 1
-        for num in nums:
-            if num not in num_time:
-                num_time[num] = 1
-                num_rank[num] = end_rank
-                rank_num[end_rank] = num
-                rank_time[end_rank] = 1
-                end_rank += 1
-            else:
-                num_time[num] += 1
-                if num_rank[num] == 1:
-                    rank_time[1] += 1
-                else:
-                    c_rank = num_rank[num]
-                    c_times = num_time[num]
-                    rank_time[c_rank] += 1
-                    pre_rank = c_rank -1
-                    pre_times = rank_time[pre_rank]
-                    if pre_rank >= 2:
-                        ppre_rank = pre_rank -1
-                        while True:
-                            if rank_time[pre_rank] == rank_time[ppre_rank]:
-                                temp = ppre_rank
-                                pre_rank = temp
-                                pre_times = rank_time[pre_rank]
-                                if temp == 1:
-                                    break
-                                else:
-                                    ppre_rank = temp -1
-                            else:
-                                break
-                    if c_times > pre_times:
-                        pre_num = rank_num[pre_rank]
-                        num_rank[num] = pre_rank
-                        num_rank[pre_num] = c_rank
-                        rank_num[c_rank] = pre_num
-                        rank_num[pre_rank] = num
-                        rank_time[c_rank] = pre_times
-                        rank_time[pre_rank] = num_time[num]
-        result = [rank_num[k+1] for k in range(k)]
-        return result
-
-    def topKFrequent_(self, nums, k):
         """
         :type nums: List[int]
         :type k: int
