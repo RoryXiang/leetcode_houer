@@ -13,10 +13,10 @@ def maxIncreaseKeepingSkyline(grid):
     :param grid:
     :return:
     """
-    m = len(grid)
-    n = len(grid[1])
-    m_list = []
-    n_list = []
+    m = len(grid)  # 记录多少行
+    n = len(grid[1])  # 记录多少列
+    m_list = []  # 记录每行最高值
+    n_list = []  # 记录每列最高值
     for i in range(m):
         m_list.append(max(grid[i]))
     for i in range(n):
@@ -32,6 +32,26 @@ def maxIncreaseKeepingSkyline(grid):
                 nums += (min(m_list[m_index], n_list[n_index]) - num)
 
     print(m_list, n_list, nums)
+    return nums
+
+
+def maxIncreaseKeepingSkyline_(grid):
+    top_max = []
+    left_max = []
+    for i in range(len(grid)):
+        left_max.append(max(grid[i]))
+    for i in range(len(grid[0])):
+        top_max.append(max(item[i] for item in grid))
+    result = 0
+    for i in range(len(top_max)):
+        for j in range(len(left_max)):
+            if top_max[i] < left_max[j]:
+                result += top_max[i] - grid[i][j]
+            else:
+                result += left_max[j] - grid[i][j]
+    return result
+
 
 if __name__ == '__main__':
-    maxIncreaseKeepingSkyline([[3,0,8,4],[2,4,5,7],[9,2,6,3],[0,3,1,0]])
+    a = maxIncreaseKeepingSkyline(
+        [[3, 0, 8, 4], [2, 4, 5, 7], [9, 2, 6, 3], [0, 3, 1, 0]])

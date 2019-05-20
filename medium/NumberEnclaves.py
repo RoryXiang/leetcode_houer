@@ -1,6 +1,6 @@
 # -*- coding:UTF-8 -*-
 
-# 求岛屿面积 ===============================================
+# 求岛屿面积 ======================================================
 """[summary]
 Given a 2D array A, each cell is 0 (representing sea) or 1 (representing land)
 
@@ -23,20 +23,26 @@ class Solution:
         m, n = len(board), len(board[0])
 
         def _solve(i, j):
+            if i == 2 and j == 2:
+                print(board[i][j], 0 <= i < m and 0 <=
+                      j < n and board[i][j] == 1, "???????????")
             if 0 <= i < m and 0 <= j < n and board[i][j] == 1:
+                # print("????", i, j)
                 board[i][j] = 2
+                # print(board)
                 list(map(_solve, (i + 1, i - 1, i, i), (j, j, j + 1, j - 1)))
-        print(board)
+
+        # 从所有行的开始和结尾往里，如果边缘是1则换成2，往里走
         for i in range(m):
             list(map(_solve, (i, i), (0, n - 1)))
-
+        # 从所有列的开始和结尾往里，如果边缘是1则换成2，往里走
         for i in range(n):
             list(map(_solve, (0, m - 1), (i, i)))
-
+        # print(board)
+        # 最后统计所有的1，就是岛屿面积
         for i in range(m):
             for j in range(n):
                 if board[i][j] == 1:
-                    board[i][j] = 0
                     self.res += 1
                 elif board[i][j] == 2:
                     board[i][j] = 1
