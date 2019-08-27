@@ -15,7 +15,6 @@ def spiral_matrix(matrix):
     max_n = n
     min_n = 0
     flag = 3
-    add = False
     while max_m >= min_m and max_n >= min_n:
         if flag == 3:
             add = False
