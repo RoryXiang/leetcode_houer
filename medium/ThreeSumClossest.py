@@ -6,6 +6,10 @@
 # @Version : $Id$
 
 
+"""其实可以写一个排序，然后循环，做i, i+1, i+2和的计算找到最接近的三个数
+"""
+
+
 def three_sum_closest(nums, target):
     nums.sort()
     res = nums[0] + nums[1] + nums[2]
