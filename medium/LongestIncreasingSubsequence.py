@@ -1,4 +1,9 @@
-# -*- coding:UTF-8 -*-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Date    : 2019-10-15 11:03:14
+# @Author  : RoryXiang (pingping19901121@gmail.com)
+# @Link    : ${link}
+# @Version : $Id$
 
 """[summary]
 Given an unsorted array of integers, find the length of longest increasing subsequence.
