@@ -85,17 +85,7 @@ if __name__ == '__main__':
     a = [3, 5]
     # a = [1, 2, 3]
     # a = [1, 2, 3, 4]
-    head = None
-    prev = None
-
-    for i in a:
-        if not head:
-            node = Node(i)
-            head = node
-        else:
-            prev = node
-            node = Node(i)
-            prev.next = node
+    head = Linck(a)
 
     s = Solution()
     # head = s.solve(head, 2, 4)
