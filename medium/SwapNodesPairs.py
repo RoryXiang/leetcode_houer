@@ -5,6 +5,11 @@
 # @Link    : ${link}
 # @Version : $Id$
 
+"""
+leetcode 24
+Swap Nodes in Pairs
+"""
+
 
 class Node(object):
 
