@@ -23,4 +23,6 @@ if __name__ == "__main__":
     # l2 = list(input("input secend number: "))
     l1 = "35443653"
     l2 = "565737365"
+    l1 = "243"
+    l2 = "564"
     print(a.addTwoNumbers(l1, l2))
