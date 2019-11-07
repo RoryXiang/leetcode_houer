@@ -1,5 +1,5 @@
 # coding=utf-8
-import copy
+
 import operator
 from collections import Counter
 

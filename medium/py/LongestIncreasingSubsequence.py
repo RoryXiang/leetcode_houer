@@ -6,8 +6,10 @@
 # @Version : $Id$
 
 """[summary]
-Given an unsorted array of integers, find the length of longest increasing subsequence.
-解题思路： 将第1个数字加入解集；依次读取后面的数字，如果此数字比解集中最后一个数字大，则将此数字追加到解集后，否则，用这个数字替换解集中第一个比此数字大的数
+Given an unsorted array of integers, find the length of longest increasing
+subsequence.
+解题思路： 将第1个数字加入解集；依次读取后面的数字，如果此数字比解集中最后一个数字大，
+则将此数字追加到解集后，否则，用这个数字替换解集中第一个比此数字大的数
 参考链接： https://www.jianshu.com/p/a3cd9df6d9d1
 """
 

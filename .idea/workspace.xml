@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61088fee-cb0a-4fb3-bb57-b3ddd6924802" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/easy/c/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy/py/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/c/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/py/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/BullsAndCows.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/BullsAndCows_299.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/LongestIncreasingSubsequence.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/LongestIncreasingSubsequence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/MinPathSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/MinPathSum_64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/NumberEnclaves.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/NumberEnclaves.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/SwapNodesPairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/SwapNodesPairs_24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/UniquePath.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/UniquePath_62.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/add_two_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/add_two_number_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/counting_bits.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/CountingBits_338.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/custom_sort_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/CustomSortString_791.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/maxIncreaseKeepingSkyline.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/maxIncreaseKeepingSkyline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/py/top_k_frequent_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/medium/py/top_k_frequent_elements.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +48,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pingp\Desktop\work_space\personal_githouse\leetcode_houer\easy\py" />
+      <recent name="C:\Users\pingp\Desktop\work_space\personal_githouse\leetcode_houer\medium\py" />
+      <recent name="C:\Users\pingp\Desktop\work_space\personal_githouse\leetcode_houer\easy\c" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -53,8 +67,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.top_k_frequent_elements">
-    <configuration name="constructMaximumBinaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.find_duplicates_of_array">
+    <configuration name="BullsAndCows" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,12 +76,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/medium/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constructMaximumBinaryTree.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pingp\Desktop\work_space\personal_githouse\leetcode_houer\medium\py\BullsAndCows_299.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="counting_bits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="add_two_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,12 +98,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/medium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/medium/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\pingp\Desktop\work_space\personal_githouse\leetcode_houer\medium\py\counting_bits.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pingp\Desktop\work_space\personal_githouse\leetcode_houer\medium\py\add_two_number_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maxIncreaseKeepingSkyline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="constructMaximumBinaryTree (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,12 +120,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/medium/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maxIncreaseKeepingSkyline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/medium/py/constructMaximumBinaryTree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="max_str" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="counting_bits (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,12 +142,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/medium/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/max_str.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pingp\Desktop\work_space\personal_githouse\leetcode_houer\medium\py\CountingBits_338.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="top_k_frequent_elements" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_duplicates_of_array" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,12 +164,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/medium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/medium/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\pingp\Desktop\work_space\personal_githouse\leetcode_houer\medium\py\top_k_frequent_elements.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/medium/py/find_duplicates_of_array.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,19 +179,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.max_str" />
-      <item itemvalue="Python.maxIncreaseKeepingSkyline" />
-      <item itemvalue="Python.constructMaximumBinaryTree" />
-      <item itemvalue="Python.counting_bits" />
-      <item itemvalue="Python.top_k_frequent_elements" />
+      <item itemvalue="Python.add_two_number" />
+      <item itemvalue="Python.BullsAndCows" />
+      <item itemvalue="Python.constructMaximumBinaryTree (1)" />
+      <item itemvalue="Python.counting_bits (1)" />
+      <item itemvalue="Python.find_duplicates_of_array" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.top_k_frequent_elements" />
-        <item itemvalue="Python.counting_bits" />
-        <item itemvalue="Python.constructMaximumBinaryTree" />
-        <item itemvalue="Python.maxIncreaseKeepingSkyline" />
-        <item itemvalue="Python.max_str" />
+        <item itemvalue="Python.find_duplicates_of_array" />
+        <item itemvalue="Python.counting_bits (1)" />
+        <item itemvalue="Python.constructMaximumBinaryTree (1)" />
+        <item itemvalue="Python.BullsAndCows" />
+        <item itemvalue="Python.add_two_number" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531819528133</updated>
       <workItem from="1573093348215" duration="12000" />
-      <workItem from="1573113287185" duration="376000" />
+      <workItem from="1573113287185" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="solveed">
       <created>1532404146842</created>
@@ -229,5 +243,12 @@
     <MESSAGE value="solveed" />
     <MESSAGE value="Maximum Binary Tree" />
     <option name="LAST_COMMIT_MESSAGE" value="Maximum Binary Tree" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode_houer$constructMaximumBinaryTree__1_.coverage" NAME="constructMaximumBinaryTree (1) Coverage Results" MODIFIED="1573114448715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/medium/py" />
+    <SUITE FILE_PATH="coverage/leetcode_houer$add_two_number.coverage" NAME="add_two_number Coverage Results" MODIFIED="1573114207956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/medium/py" />
+    <SUITE FILE_PATH="coverage/leetcode_houer$BullsAndCows.coverage" NAME="BullsAndCows Coverage Results" MODIFIED="1573114342597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/medium/py" />
+    <SUITE FILE_PATH="coverage/leetcode_houer$find_duplicates_of_array.coverage" NAME="find_duplicates_of_array Coverage Results" MODIFIED="1573114836741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/medium/py" />
+    <SUITE FILE_PATH="coverage/leetcode_houer$counting_bits__1_.coverage" NAME="counting_bits (1) Coverage Results" MODIFIED="1573114635657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/medium/py" />
   </component>
 </project>
