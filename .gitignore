@@ -8,6 +8,7 @@ jobdir
 project.egg-info
 baidu_poi_crawl.egg-info/
 build/
+test/*
 nohup.out
 .python-version
 __pycache__/
