@@ -1,6 +1,7 @@
 *pyc
 jobdir
-.idea
+.idea/*
+.vscode/*
 .vscode
 .ropeproject
 .scrapy
